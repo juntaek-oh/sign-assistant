@@ -139,6 +139,8 @@
 ---
 *이 아키텍처는 프로젝트 초기 설계안이며, 개발 진행에 따라 수정될 수 있습니다.*
 
+## 유즈케이스 다이어그램
+<img width="333" height="243" alt="image" src="https://github.com/user-attachments/assets/bfda8029-7c75-4754-9ccd-eb0ec8195eab" />
 
 
 ## Clone code
