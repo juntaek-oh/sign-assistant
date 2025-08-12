@@ -20,7 +20,7 @@
 최신 AI 기술을 활용하여 수어를 음성으로, 음성을 텍스트로 실시간 변환합니다.
 
 ### ✨ Key Features
-
+<div align="center">
 <table>
 <tr>
 <td width="50%">
@@ -43,7 +43,7 @@
 </td>
 </tr>
 </table>
-
+</div>
 ### 🎯 Project Goals
 
 <div align="center">
