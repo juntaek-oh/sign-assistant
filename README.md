@@ -101,7 +101,7 @@ sign-assistant/
 │
 ├── 📄 main.py                    # Entry point
 ├── 📋 requirements.txt           # Dependencies
-├── 🔐 .env.example              # Environment variables template
+├── 🔐 .env.example              # Environment variables template  
 │
 ├── 📦 modules/                  # Core modules
 │   ├── 🎮 app_controller.py    # Application controller
@@ -125,6 +125,9 @@ sign-assistant/
 │
 ├── 🤖 models/                   # AI models
 │   └── best_1.pt               # YOLO model
+
+├── 📦 model_train
+│   └── model.py
 │
 └── 📊 logs/                     # Application logs
 ```
