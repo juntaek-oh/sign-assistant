@@ -267,13 +267,6 @@ python main.py --log-level DEBUG
 4. **"수어 그만하기"** 버튼 클릭하여 문장 생성
 5. 생성된 문장이 음성으로 출력됨
 
-**지원되는 수어 단어:**
-- **단일 단어**: 학교, 병원, 아프다, 가다, 나, 빨리, 구조
-- **시퀀스 단어**: 
-  - 구급차 (3단계)
-  - 쓰러지다 (2단계)
-  - 사람 (2단계)
-- **특수 기능**: 리셋 (마지막 단어 삭제)
 
 #### 🎤 음성 인식 모드
 
@@ -281,27 +274,6 @@ python main.py --log-level DEBUG
 2. 마이크에 대고 명확하게 발화
 3. **"말 그만하기"** 버튼 클릭
 4. 인식된 텍스트가 화면에 표시됨
-
----
-
-## 🎥 Demo
-
-### 시나리오
-
-**대화 예시:**
-1. 👨 청인: (마이크로) "어디에 가세요?"
-2. 🧏 농인: (수어로) [나] + [학교] + [가다]
-3. 🔊 시스템: "저는 학교에 갑니다." (음성 출력)
-
-<div align="center">
-<a href="https://youtu.be/PkTpwYJMkK0">
-  <img src="https://img.youtube.com/vi/PkTpwYJMkK0/maxresdefault.jpg" width="800">
-</a>
-</div>
-<div align="center">
-*클릭하면 데모 영상을 볼 수 있습니다*
-</div>
-
 
 ### 🤟 현재 모델에서 인식 가능한 수어 단어
 <details>
@@ -379,6 +351,29 @@ python main.py --log-level DEBUG
 ---
 ---
 </details>
+
+---
+
+## 🎥 Demo
+
+### 시나리오
+
+**대화 예시:**
+1. 👨 청인: (마이크로) "어디에 가세요?"
+2. 🧏 농인: (수어로) [나] + [학교] + [가다]
+3. 🔊 시스템: "저는 학교에 갑니다." (음성 출력)
+
+<div align="center">
+<a href="https://youtu.be/PkTpwYJMkK0">
+  <img src="https://img.youtube.com/vi/PkTpwYJMkK0/maxresdefault.jpg" width="800">
+</a>
+</div>
+<div align="center">
+*클릭하면 데모 영상을 볼 수 있습니다*
+</div>
+
+
+
 
 ---
 
