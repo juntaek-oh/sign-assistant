@@ -286,87 +286,73 @@ python main.py --log-level DEBUG
 
 ## 🎥 Demo
 
-### 시연 시나리오
+### 시나리오
 
 **대화 예시:**
 1. 👨 청인: (마이크로) "어디에 가세요?"
 2. 🧏 농인: (수어로) [나] + [학교] + [가다]
 3. 🔊 시스템: "저는 학교에 갑니다." (음성 출력)
 
-
-[![Demo Video](https://img.youtube.com/vi/PkTpwYJMkK0/maxresdefault.jpg)](https://youtu.be/PkTpwYJMkK0)
-
+<div align="center">
+<a href="https://youtu.be/PkTpwYJMkK0">
+  <img src="https://img.youtube.com/vi/PkTpwYJMkK0/maxresdefault.jpg" width="800">
+</a>
+</div>
+<div align="center">
 *클릭하면 데모 영상을 볼 수 있습니다*
+</div>
 
+
+### 🤟 현재 모델에서 인식 가능한 수어 단어
 <details>
-<summary><b>🤟 현재 모델에서 인식 가능한 수어 단어</b></summary>
+<summary><b>📋 지원 단어 목록 (총 15개)</b></summary>
 
-### 📋 지원 단어 목록 (총 15개)
+
+
 
 ### 🔄 시퀀스 단어 (순서대로 동작 필요)
-
 #### 🚑 구급차 (Ambulance) - 3단계 시퀀스
-
 | 단계 | 동작명 | 수어 이미지 | 설명 |
 |:---:|:---:|:---:|:---|
-| 1/3 | 구급차1/3 | ![구급차1](images/signs/ambulance_1.jpg) | 첫 번째 동작 |
-| 2/3 | 구급차2/3 | ![구급차2](images/signs/ambulance_2.jpg) | 두 번째 동작 |
-| 3/3 | 구급차3/3 | ![구급차3](images/signs/ambulance_3.jpg) | 완성 동작 |
-
+| 1/3 | 구급차1/3 | <img src="images/signs/ambulance_1.jpg" width="200"> | 첫 번째 동작 |
+| 2/3 | 구급차2/3 | <img src="images/signs/ambulance_2.jpg" width="200"> | 두 번째 동작 |
+| 3/3 | 구급차3/3 | <img src="images/signs/ambulance_3.jpg" width="200"> | 완성 동작 |
 > **💡 완성 조건:** 1/3 → 2/3 → 3/3 순서대로 모두 인식되어야 "구급차" 단어 완성
 
 
-
-
 #### 😵 쓰러지다 (Collapse) - 2단계 시퀀스
-
 | 단계 | 동작명 | 수어 이미지 | 설명 |
 |:---:|:---:|:---:|:---|
-| 1/2 | 쓰러지다1/2 | ![쓰러지다1](images/signs/collapse_1.jpg) | 첫 번째 동작 |
-| 2/2 | 쓰러지다2/2 | ![쓰러지다2](images/signs/collapse_2.jpg) | 완성 동작 |
-
+| 1/2 | 쓰러지다1/2 | <img src="images/signs/collapse_1.jpg" width="200"> | 첫 번째 동작 |
+| 2/2 | 쓰러지다2/2 | <img src="images/signs/collapse_2.jpg" width="200"> | 완성 동작 |
 > **💡 완성 조건:** 1/2 → 2/2 순서대로 인식되어야 "쓰러지다" 단어 완성
 
 
-
-
 #### 👤 사람 (Person) - 2단계 시퀀스
-
 | 단계 | 동작명 | 수어 이미지 | 설명 |
 |:---:|:---:|:---:|:---|
-| 1/2 | 사람1/2 | ![사람1](images/signs/person_1.jpg) | 첫 번째 동작 |
-| 2/2 | 사람2/2 | ![사람2](images/signs/person_2.jpg) | 완성 동작 |
-
+| 1/2 | 사람1/2 | <img src="images/signs/person_1.jpg" width="200"> | 첫 번째 동작 |
+| 2/2 | 사람2/2 | <img src="images/signs/person_2.jpg" width="200"> | 완성 동작 |
 > **💡 완성 조건:** 1/2 → 2/2 순서대로 인식되어야 "사람" 단어 완성
 
 
-
-
 ### ⚡ 단일 동작 단어 (한 번에 인식)
-
-
 | 단어 | 영어 | 수어 이미지 | 설명 |
 |:---:|:---:|:---:|:---|
-| **🏫 학교** | school | ![학교](images/signs/school.jpg) | 학교를 나타내는 수어 |
-| **😷 아프다** | hurt | ![아프다](images/signs/hurt.jpg) | 아픈 상태를 표현하는 수어 |
-| **🚶 가다** | go | ![가다](images/signs/go.jpg) | 이동을 나타내는 수어 |
-| **👆 나** | me | ![나](images/signs/me.jpg) | 자신을 가리키는 수어 |
-| **⚡ 빨리** | quickly | ![빨리](images/signs/quickly.jpg) | 빠른 속도를 나타내는 수어 |
-| **🏥 병원** | hospital | ![병원](images/signs/hospital.jpg) | 병원을 나타내는 수어 |
-| **🆘 구조** | rescue | ![구조](images/signs/rescue.jpg) | 도움 요청을 나타내는 수어 |
-
-
-
+| **🏫 학교** | school | <img src="images/signs/school.jpg" width="200"> | 학교를 나타내는 수어 |
+| **😷 아프다** | hurt | <img src="images/signs/hurt.jpg" width="200"> | 아픈 상태를 표현하는 수어 |
+| **🚶 가다** | go | <img src="images/signs/go.jpg" width="200"> | 이동을 나타내는 수어 |
+| **👆 나** | me | <img src="images/signs/me.jpg" width="200"> | 자신을 가리키는 수어 |
+| **⚡ 빨리** | quickly | <img src="images/signs/quickly.jpg" width="200"> | 빠른 속도를 나타내는 수어 |
+| **🏥 병원** | hospital | <img src="images/signs/hospital.jpg" width="200"> | 병원을 나타내는 수어 |
+| **🆘 구조** | rescue | <img src="images/signs/rescue.jpg" width="200"> | 도움 요청을 나타내는 수어 |
 
 
 ### 🔧 특수 기능
-
 #### 🔄 리셋 (Reset)
-
 | 기능 | 수어 이미지 | 동작 결과 |
 |:---:|:---:|:---|
-| **리셋** | ![리셋](images/signs/reset.jpg) | 마지막에 입력된 단어 하나를 삭제합니다 |
-
+| **리셋** | <img src="images/signs/reset.jpg" width="200"> | 마지막에 입력된 단어 하나를 삭제합니다 |
 
 
 
