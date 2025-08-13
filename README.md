@@ -155,7 +155,7 @@ sign-assistant/
 
 #### 1️⃣ 저장소 복제
 ```bash
-git clone https://github.com/HyunBeen96/sign-assistant.git
+git clone https://github.com/juntaek-oh/sign-assistant.git
 cd sign-assistant
 ```
 
@@ -483,12 +483,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
 
-**이 프로젝트가 도움이 되었다면 ⭐ Star를 눌러주세요!**
-
-<br>
-
-Made with ❤️ for better communication
 
 </div>
