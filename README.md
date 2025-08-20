@@ -1,5 +1,27 @@
 # 🤟 Sign Language Assistant
 > **Real-time Bidirectional Sign Language Translation System**
+---
+
+## 🎥 Demo
+
+### 시나리오
+
+**대화 예시:**
+1. 👨 청인: (마이크로) "어디에 가세요?"
+2. 🧏 농인: (수어로) [나] + [학교] + [가다]
+3. 🔊 시스템: "저는 학교에 갑니다." (음성 출력)
+
+<div align="center">
+<a href="https://youtu.be/PkTpwYJMkK0">
+  <img src="https://img.youtube.com/vi/PkTpwYJMkK0/maxresdefault.jpg" width="800">
+</a>
+</div>
+<div align="center">
+*클릭하면 데모 영상을 볼 수 있습니다*
+</div>
+
+
+---
 
 <div align="center">
 
@@ -351,29 +373,6 @@ python main.py --log-level DEBUG
 ---
 ---
 </details>
-
----
-
-## 🎥 Demo
-
-### 시나리오
-
-**대화 예시:**
-1. 👨 청인: (마이크로) "어디에 가세요?"
-2. 🧏 농인: (수어로) [나] + [학교] + [가다]
-3. 🔊 시스템: "저는 학교에 갑니다." (음성 출력)
-
-<div align="center">
-<a href="https://youtu.be/PkTpwYJMkK0">
-  <img src="https://img.youtube.com/vi/PkTpwYJMkK0/maxresdefault.jpg" width="800">
-</a>
-</div>
-<div align="center">
-*클릭하면 데모 영상을 볼 수 있습니다*
-</div>
-
-
-
 
 ---
 
