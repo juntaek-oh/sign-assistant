@@ -483,8 +483,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 한국 수어 데이터셋 제공자
 - 모든 테스터와 기여자
 
----
-
-
 
 </div>
